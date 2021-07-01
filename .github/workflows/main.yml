@@ -2,7 +2,7 @@
 name: Node NoSQL API v1
 
 #Eventos que detonaran el flujo de CI
-on: [push]
+on: [push, pull_request]
 
 #Las tareas que va a ejecutar el CI 
 jobs:
